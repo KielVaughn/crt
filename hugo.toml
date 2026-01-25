@@ -1,0 +1,38 @@
+baseURL = 'https://www.yourdomain.com'
+languageCode = 'en-us'
+title = 'John Smith, CISSP'
+disableKinds = ["taxonomy", "term"]
+
+[params]
+    author = "John Smith"
+    description = "Cybersecurity Professional "
+    profile_img = "images/john-smith.png"
+    github = "https://github.com/#"
+    linkedin = "https://linkedin.com/in/#"
+    email = "not@real.com"
+
+[menu]
+    [[menu.main]]
+        name = "whoami"
+        url = "/whoami/"
+        weight = 2
+    [[menu.main]]
+        name = "certifications"
+        url = "/certifications/"
+        weight = 3
+    [[menu.main]]
+        name = "ctf writeups"
+        url = "/ctf-writeups/"
+        weight = 4
+    [[menu.main]]
+        name = "blog"
+        url = "/blog/"
+        weight = 5
+    [[menu.main]]
+        name = "projects"
+        url = "/projects/"
+        weight = 6
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true # Required for skills grid HTML
