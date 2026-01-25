@@ -100,7 +100,9 @@ Place all images (profile photos, certification badges, and screenshots) in the 
 
 Reference them in your markdown files using the path:
 
+```
 ![Description](/images/filename.png)
+```
 
 ### 🛠️ Customization & Aesthetics
 
